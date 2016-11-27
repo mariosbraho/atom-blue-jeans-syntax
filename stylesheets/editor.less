@@ -1,0 +1,111 @@
+/**
+ * Editor stylesheet
+ */
+.editor,
+:host {
+    /**
+     * Textured background from https://www.transparenttextures.com/
+     */
+    background-color: @syntax-blue-jeans-background-color;
+    background-image: url("atom://atom-blue-jeans-syntax/assets/img/45-degree-fabric-dark.png");
+    color: @syntax-text-color;
+    /**
+     * Apply textured background to div which have only background color which overrides image
+     */
+    .line-numbers,
+    .line-numbers > div,
+    .lines,
+    .lines > div > div {
+        background-image: url("atom://atom-blue-jeans-syntax/assets/img/45-degree-fabric-dark.png");
+    }
+    /**
+     * Invisible characters, guides etc.
+     */
+    .wrap-guide {
+        background-color: @syntax-wrap-guide-color;
+    }
+
+    .indent-guide {
+        color: @syntax-indent-guide-color;
+    }
+
+    .invisible-character {
+        color: @syntax-invisible-character-color;
+    }
+    /**
+     * Left numbers container (gutter)
+     */
+    .gutter {
+        background-color: @syntax-blue-jeans-background-color;
+        color: @syntax-gutter-text-color;
+
+        .line-number {
+            // smaller numbers font
+            font-size: 0.8em;
+            line-height: 1.9em;
+
+            &.cursor-line {
+                background-color: @syntax-gutter-background-color-selected;
+                color: @syntax-gutter-text-color-selected;
+            }
+
+            &.cursor-line-no-selection {
+                color: @syntax-gutter-text-color-selected;
+            }
+
+            &.git-line-removed:before {
+                bottom: -3px;
+            }
+
+            &.git-line-removed:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 25px;
+                border-bottom: 1px dotted fade(@syntax-color-removed, 50%);
+                pointer-events: none;
+            }
+
+            .icon-right {
+                color: @syntax-text-color;
+            }
+        }
+    }
+
+    .fold-marker:after,
+    .gutter .line-number.folded,
+    .gutter .line-number:after {
+        color: @light-gray;
+    }
+
+    .invisible {
+        color: @syntax-text-color;
+    }
+
+    .cursor {
+        color: @syntax-cursor-color;
+        border-left-width: 2px;
+    }
+
+    .selection .region {
+        background-color: @syntax-gutter-background-color-selected;
+    }
+
+    .bracket-matcher .region {
+        border-bottom: 2px solid @green;
+    }
+    // Find and replace
+    .current-result .region.region.region,
+    .find-result .region.region.region {
+        background-color: @syntax-result-marker-color;
+    }
+
+    .find-result .region.region.region {}
+
+    .current-result .region.region.region {}
+}
+
+:host(.mini) .scroll-view {
+    padding-left: 1px;
+}
