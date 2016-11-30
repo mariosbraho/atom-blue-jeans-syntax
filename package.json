@@ -4,7 +4,7 @@
     "theme": "syntax",
     "version": "0.1.0",
     "private": false,
-    "description": "Atom blue jeans syntax that suits well with Atom blue jeans ui",
+    "description": "Atom blue jeans syntax for Atom blue jeans ui",
     "keywords": [
         "dark",
         "blue",

@@ -9,7 +9,6 @@
     background-color: @syntax-blue-jeans-background-color;
     background-image: url("atom://atom-blue-jeans-syntax/assets/img/45-degree-fabric-dark.png");
     color: @syntax-text-color;
-
     /**
      * Apply textured background to div which have only background color which overrides image
      */
@@ -19,9 +18,7 @@
     .lines > div > div {
         background: transparent !important;
     }
-    /**
-     * Invisible characters, guides etc.
-     */
+
     .wrap-guide {
         background-color: fadeout(@custom-yellow, 93%);
     }
@@ -33,16 +30,13 @@
     .invisible-character {
         color: fadeout(@custom-yellow, 93%);
     }
-    /**
-     * Left numbers container (gutter)
-     */
+
     .gutter {
         background-color: @syntax-blue-jeans-background-color;
         background-image: url("atom://atom-blue-jeans-syntax/assets/img/45-degree-fabric-dark.png");
         color: @syntax-gutter-text-color;
 
         .line-number {
-            // smaller numbers font
             font-size: 0.8em;
             line-height: 1.9em;
 
@@ -70,7 +64,7 @@
             }
 
             .icon-right {
-                color: @custom-yellow;;
+                color: @custom-yellow;
             }
         }
     }
@@ -97,7 +91,7 @@
     .bracket-matcher .region {
         border-bottom: 2px solid @green;
     }
-    // Find and replace
+
     .current-result .region.region.region,
     .find-result .region.region.region {
         background-color: @syntax-result-marker-color;
