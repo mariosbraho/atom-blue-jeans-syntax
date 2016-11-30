@@ -23,15 +23,15 @@
      * Invisible characters, guides etc.
      */
     .wrap-guide {
-        background-color: @syntax-wrap-guide-color;
+        background-color: fadeout(@custom-yellow, 93%);
     }
 
     .indent-guide {
-        color: @syntax-indent-guide-color;
+        color: fadeout(@custom-yellow, 93%);
     }
 
     .invisible-character {
-        color: @syntax-invisible-character-color;
+        color: fadeout(@custom-yellow, 93%);
     }
     /**
      * Left numbers container (gutter)
@@ -48,11 +48,11 @@
 
             &.cursor-line {
                 background-color: @syntax-gutter-background-color-selected;
-                color: @syntax-gutter-text-color-selected;
+                color: @custom-yellow;
             }
 
             &.cursor-line-no-selection {
-                color: @syntax-gutter-text-color-selected;
+                color: @custom-yellow;
             }
 
             &.git-line-removed:before {
@@ -70,7 +70,7 @@
             }
 
             .icon-right {
-                color: @syntax-text-color;
+                color: @custom-yellow;;
             }
         }
     }
