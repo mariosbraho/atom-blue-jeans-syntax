@@ -8,7 +8,8 @@
     .line-numbers > div,
     .lines,
     .lines > div > div {
-        background: transparent !important;
+        background-color: @syntax-blue-jeans-background-color;
+        background-image: url("atom://atom-blue-jeans-syntax/assets/img/45-degree-fabric-dark.png");
     }
 
     .wrap-guide {
@@ -24,8 +25,8 @@
     }
 
     .gutter {
-        background-color: @syntax-blue-jeans-background-color;
-        background-image: url("atom://atom-blue-jeans-syntax/assets/img/45-degree-fabric-dark.png");
+        background-color: @syntax-blue-jeans-background-color !important;
+        background-image: url("atom://atom-blue-jeans-syntax/assets/img/45-degree-fabric-dark.png") !important;
         color: @syntax-gutter-text-color;
 
         .line-number {
