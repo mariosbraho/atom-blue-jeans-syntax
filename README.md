@@ -4,9 +4,21 @@ A dark blue syntax template for Atom created with <img src="http://66.media.tumb
 
 It suits quite well with [atom-blue-jeans-ui](https://github.com/mariosbraho/atom-blue-jeans-ui).
 
+*Python*
+
 ![Python screenshot](https://i.imgsafe.org/07e537a6f3.png)
 
+*JavaScript*
+
 ![JavaScript screenshot](https://i.imgsafe.org/07f668455f.png)
+
+*HTML*
+
+![HTML screenshot](https://i.imgsafe.org/0814939609.png)
+
+*CSS*
+
+![CSS screenshot](https://i.imgsafe.org/07f668455f.png)
 
 ### Installation
 **<img src="https://atom.io/favicon.ico" width="14" height="14" /> Open a terminal and type**
