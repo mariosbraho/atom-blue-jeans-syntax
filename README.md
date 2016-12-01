@@ -14,7 +14,7 @@ It suits quite well with [atom-blue-jeans-ui](https://github.com/mariosbraho/ato
 
 *HTML*
 
-![HTML screenshot](https://i.imgsafe.org/0814939609.png)
+![HTML screenshot](https://i.imgsafe.org/0867d7d13b.png)
 
 *CSS*
 
