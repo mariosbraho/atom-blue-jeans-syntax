@@ -8,7 +8,7 @@
     .line-numbers > div,
     .lines,
     .lines > div > div {
-        background-image: url("atom://atom-blue-jeans-syntax/assets/img/45-degree-fabric-dark.png");
+        background-color: transparent !important;
     }
 
     .wrap-guide {
@@ -24,13 +24,13 @@
     }
 
     .gutter {
-        background-color: @syntax-blue-jeans-background-color !important;
-        background-image: url("atom://atom-blue-jeans-syntax/assets/img/45-degree-fabric-dark.png") !important;
         color: @syntax-gutter-text-color;
+        z-index: auto;
 
         .line-number {
             font-size: 0.8em;
             line-height: 1.9em;
+            z-index: 2 !important;
 
             &.cursor-line {
                 background-color: @syntax-gutter-background-color-selected;
@@ -58,6 +58,10 @@
             .icon-right {
                 color: @custom-yellow;
             }
+        }
+
+        .line-number:first-child {
+            z-index: -1 !important;
         }
     }
 
