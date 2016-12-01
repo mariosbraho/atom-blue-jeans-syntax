@@ -16,9 +16,9 @@ It suits quite well with [atom-blue-jeans-ui](https://github.com/mariosbraho/ato
 
 ![HTML screenshot](https://i.imgsafe.org/0867d7d13b.png)
 
-*CSS*
+*LESS*
 
-![CSS screenshot](https://i.imgsafe.org/085edef7cd.png)
+![LESS screenshot](https://i.imgsafe.org/085edef7cd.png)
 
 ### Installation
 **<img src="https://atom.io/favicon.ico" width="14" height="14" /> Open a terminal and type**
