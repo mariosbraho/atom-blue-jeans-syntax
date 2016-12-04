@@ -1,19 +1,21 @@
 {
-  "author": "Marios Braho",
-  "name": "atom-blue-jeans-syntax",
-  "theme": "syntax",
-  "version": "0.2.1",
-  "private": false,
-  "description": "Atom blue jeans syntax for Atom blue jeans ui",
-  "keywords": [
-    "dark",
-    "blue",
-    "syntax"
-  ],
-  "repository": "https://github.com/mariosbraho/atom-blue-jeans-syntax",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {}
+    "author": "Marios Braho",
+    "name": "atom-blue-jeans-syntax",
+    "theme": "syntax",
+    "version": "0.2.1",
+    "private": false,
+    "description": "Atom blue jeans syntax theme for Atom blue jeans ui",
+    "keywords": [
+        "dark",
+        "blue",
+        "syntax"
+    ],
+    "repository": "https://github.com/mariosbraho/atom-blue-jeans-syntax",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+        "inconsolata": "*"
+    }
 }
