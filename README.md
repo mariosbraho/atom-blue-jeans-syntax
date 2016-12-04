@@ -6,19 +6,19 @@ It suits quite well with [atom-blue-jeans-ui](https://atom.io/themes/atom-blue-j
 
 *Python*
 
-![Python screenshot](https://i.imgsafe.org/0977fb4342.png)
+![Python screenshot](https://i.imgsafe.org/3f3a42435b.png)
 
 *JavaScript*
 
-![JavaScript screenshot](https://i.imgsafe.org/09783f0669.png)
+![JavaScript screenshot](https://i.imgsafe.org/3f39eeb333.png)
 
 *HTML*
 
-![HTML screenshot](https://i.imgsafe.org/097886306f.png)
+![HTML screenshot](https://i.imgsafe.org/3f39969941.png)
 
 *LESS*
 
-![LESS screenshot](https://i.imgsafe.org/0978b8873e.png)
+![LESS screenshot](https://i.imgsafe.org/3f3a0c6a5f.png)
 
 ### Installation
 **<img src="https://atom.io/favicon.ico" width="14" height="14" /> Open a terminal and type**
