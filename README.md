@@ -2,7 +2,7 @@
 
 A dark blue syntax theme for Atom created with <img src="http://66.media.tumblr.com/avatar_e92a426a1826_128.png" alt="love" width="12" height="12"/>
 
-It suits quite well with [atom-blue-jeans-ui](https://atom.io/themes/atom-blue-jeans-ui).
+It fits quite well with [atom-blue-jeans-ui](https://atom.io/themes/atom-blue-jeans-ui).
 
 *Python*
 
