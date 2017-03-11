@@ -1,5 +1,4 @@
-.editor,
-:host {
+.editor {
     font-family: 'Inconsolata';
     background-color: @syntax-blue-jeans-background-color;
     background-image: url("atom://atom-blue-jeans-syntax/assets/img/45-degree-fabric-dark.png");
@@ -13,15 +12,15 @@
     }
 
     .wrap-guide {
-        background-color: fadeout(@custom-yellow, 93%);
+        background-color: fadeout(@custom-yellow, 90%);
     }
 
     .indent-guide {
-        color: fadeout(@custom-yellow, 93%);
+        color: fadeout(@custom-yellow, 90%);
     }
 
     .invisible-character {
-        color: fadeout(@custom-yellow, 93%);
+        color: fadeout(@custom-yellow, 90%);
     }
 
     .gutter {
@@ -99,6 +98,6 @@
     .current-result .region.region.region {}
 }
 
-:host(.mini) .scroll-view {
+.scroll-view {
     padding-left: 1px;
 }
