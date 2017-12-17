@@ -1,8 +1,6 @@
 # Atom Blue Jeans Syntax
 
-A dark blue syntax theme for Atom created with <img src="http://66.media.tumblr.com/avatar_e92a426a1826_128.png" alt="love" width="12" height="12"/>
-
-It fits quite well with [atom-blue-jeans-ui](https://atom.io/themes/atom-blue-jeans-ui).
+A dark blue syntax theme for Atom. It can be used in combination with [atom-blue-jeans-ui](https://atom.io/themes/atom-blue-jeans-ui).
 
 *Python*
 
