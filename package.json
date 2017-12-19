@@ -2,7 +2,7 @@
   "author": "Marios Braho",
   "name": "atom-blue-jeans-syntax",
   "theme": "syntax",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "private": false,
   "description": "Atom blue jeans syntax theme for Atom blue jeans ui",
   "keywords": [
